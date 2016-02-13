@@ -19,4 +19,4 @@ def db(request,my_args):
     return HttpResponse(str) 
 
 def test(request):
-    return render(request,'test.html',{'current_time':datetime.now()})
+    return render(request,'template.html',{'current_time':datetime.now()})
